@@ -1,0 +1,168 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem; /* Ajuste o tamanho da fonte */
+    color: #000000; /* Cor do texto */
+    text-align: center; /* Centraliza horizontalmente */
+    margin-top: 20px; /* Ajusta o espaçamento superior */
+    margin-left:18px;
+    margin-right:580px ;
+}
+.botao{
+    background-color: #2a380283; /* Verde claro */
+    color: white; /* Cor do texto em branco */
+    cursor: pointer; /* Indica que o botão é clicável */
+}
+.botao:hover {
+    background-color: #76d76d; /* Cor de fundo mais escura ao passar o mouse */
+}
+.logo {
+    
+    display: flex;
+    margin-left:180px;
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    width: 100%;
+    
+}
+#logo-icone {
+    border: 5px solid #2a380283; /* Borda verde clara */
+}
+
+.car-icone {
+    width: 5%; /* Define o tamanho da imagem como 20% do tamanho original */
+    
+    border-radius: 50%; /* Torna a imagem 100% arredondada (circular) */
+    object-fit: cover; /* Faz com que a imagem cubra a área sem distorção */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Desativa a rolagem horizontal */
+   
+}
+
+main{
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Grid Container */
+.car-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    gap: 10px; /* Espaçamento entre os cards */
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    column-gap: 60px; /* Espaçamento horizontal */
+}
+
+/* Estilos dos Cards */
+.car-box {
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    background-color: #111;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+
+/* Layout interno do card */
+.car-grid {
+    display: grid;
+    grid-template-columns: 150px auto; /* Imagem e detalhes */
+    gap: 20px;
+    align-items: center;
+}
+
+.car-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.car-details h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.car-details  {
+    width: 200px; /* Definindo a largura em pixels */
+}
+
+
+.car-details p {
+   
+    line-height: 1.5;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #332200;
+    background-color: #febe01;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #d6a801;
+}
+
+/* Estilos adicionais para texto */
+.valor {
+    color: white;
+}
+
+.resposta_valor {
+    color: #febe01;
+}
+
+.marca_carro {
+    color: #b2b2b2;
+}
+
+.modelo_carro {
+    color: #febe01;
+}
+
+.ano {
+    color: #b2b2b2;
+}
+
+.resposta_ano {
+    color: #febe01;
+}
+
+.motor {
+    color: #b2b2b2;
+}
+
+.resposta_motor {
+    color: #febe01;
+}
+
+.cambio {
+    color: #b2b2b2;
+}
+
+.resposta_cambio {
+    color: #febe01;
+}
+
+.resposta_km {
+    color: #febe01;
+}
+
+.km {
+    color: #b2b2b2;
+}
